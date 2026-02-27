@@ -25,6 +25,11 @@ h1 {
   background-color: #d42a2a;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+/* tornar links no cabeçalho transparentes para não mostrar o fundo vermelho
+   quando houver margem entre botões */
+.linha-topo a {
+  background: transparent;
+}
 body {
   margin: 0;
   height: 100vh;
@@ -52,4 +57,16 @@ body {
   font-size: 16px;
   cursor: pointer;
   text-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.butao-homem {
+  padding: 10px 20px;
+  margin-right: 10px; /* espaço entre os botões */
+  background: linear-gradient(90deg, #00A8E8, #005F73);
+  color: white;
+  border: 3px solid rgba(0,0,0,0.2);
+  font-size: 16px;
+  cursor: pointer;
+  text-shadow: 0 0 2px rgba(0,0,0,0.4);
+  margin-right: 10px; /* espaço entre os botões */
 }
