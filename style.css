@@ -22,7 +22,7 @@ h1 {
 }
 
 * {
-  background-color: #d42a2a;
+  background-color: #4e758b;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 /* tornar links no cabeçalho transparentes para não mostrar o fundo vermelho
@@ -38,20 +38,12 @@ body {
   align-items: center;
   background: #ff0000;
 }
-.butao-gay {
+.butao-fundamental-2 {
   padding: 10px 20px;
   /* rainbow gradient for LGBT colors */
-  background: linear-gradient(90deg,
-    #FF0000, /* red */
-    #FF8C00, /* orange */
-    #FFFF00, /* yellow */
-    #008000, /* green */
-    #0000FF, /* blue */
-    #4B0082, /* indigo */
-    #EE82EE  /* violet */
-  );
+ background-color: black;
   color: white;
-  border-color: rgb(232, 15, 181);
+  border-color: rgb(234, 226, 232);
   border-style: solid;
   border-width: 3px;
   font-size: 16px;
@@ -59,10 +51,19 @@ body {
   text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 
-.butao-homem {
+.butao-fundamental-1 {
   padding: 10px 20px;
   margin-right: 10px; /* espaço entre os botões */
-  background: linear-gradient(90deg, #00A8E8, #005F73);
+  background: linear-gradient(90deg,
+   #FF0000, /* red */
+    #FF8C00, /* orange */
+    #FFFF00, /* yellow */
+    #008000, /* green */
+    #0000FF, /* blue */
+    #4B0082, /* indigo */
+    #EE82EE  /* violet */
+  
+  );
   color: white;
   border: 3px solid rgba(0,0,0,0.2);
   font-size: 16px;
