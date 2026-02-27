@@ -35,11 +35,21 @@ body {
 }
 .butao-gay {
   padding: 10px 20px;
-  background: blue;
+  /* rainbow gradient for LGBT colors */
+  background: linear-gradient(90deg,
+    #FF0000, /* red */
+    #FF8C00, /* orange */
+    #FFFF00, /* yellow */
+    #008000, /* green */
+    #0000FF, /* blue */
+    #4B0082, /* indigo */
+    #EE82EE  /* violet */
+  );
   color: white;
   border-color: rgb(232, 15, 181);
   border-style: solid;
   border-width: 3px;
   font-size: 16px;
   cursor: pointer;
+  text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
