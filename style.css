@@ -10,9 +10,9 @@ h1 {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: flex-end; /* alinhado à direita */
+  justify-content: space-between; /* homem à esquerda, video à direita */
   align-items: center;
-  padding: 15px 20px; /* adiciona espaço à direita */
+  padding: 15px 20px; /* espaço nas laterais */
   box-sizing: border-box; /* evita overflow quando há padding */
 }
 .nome {
@@ -67,6 +67,7 @@ body {
   border: 3px solid rgba(0,0,0,0.2);
   font-size: 16px;
   cursor: pointer;
-  text-shadow: 0 0 2px rgba(0,0,0,0.4);
+  text-shadow: 0 0 2px rgba(0,0,0,0.4);     
   margin-right: 10px; /* espaço entre os botões */
+ float: left; /* alinha o botão à esquerda */
 }
