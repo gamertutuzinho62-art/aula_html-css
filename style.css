@@ -22,7 +22,8 @@ h1 {
 }
 
 * {
-  background-color: #4e758b;
+  background-color: 
+  #4e758b;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 /* tornar links no cabeçalho transparentes para não mostrar o fundo vermelho
@@ -79,6 +80,6 @@ body {
   align-items: center;
   height: 100vh;
   color: white;
-
+align-items: start;
 }
 
