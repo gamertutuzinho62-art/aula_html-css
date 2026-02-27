@@ -10,9 +10,10 @@ h1 {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end; /* alinhado à direita */
   align-items: center;
-  padding: 15px;
+  padding: 15px 20px; /* adiciona espaço à direita */
+  box-sizing: border-box; /* evita overflow quando há padding */
 }
 .nome {
   color: white;
