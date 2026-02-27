@@ -71,3 +71,13 @@ body {
   margin-right: 10px; /* espaço entre os botões */
  float: left; /* alinha o botão à esquerda */
 }
+
+.contaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+
+}
+
