@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ff0000;
+  background: #4e758b;
 }
 .butao-fundamental-2 {
   padding: 10px 20px;
@@ -79,7 +79,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin-top: -250px; /* compensa a altura da linha do topo */
   color: white;
-align-items: start;
 }
 
+.cixa {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+}
